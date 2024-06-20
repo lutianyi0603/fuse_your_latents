@@ -1,0 +1,33 @@
+pretrained_v_path: [zeroscope_v2_576w]
+pretrained_i_path: [control_v11e_sd15_ip2p]
+pretrained_sd_path: [stable-diffusion-v1-5]
+output_dir: ./outputs/animal/1
+num_inference_time: 40
+num_inv_steps: 40
+denoise_time: 20
+fusion_alpha_v: 0.7
+fusion_alpha_i: 0.3
+decay: true
+reverse: false
+video_path: ./data/animal/0001
+src_prompt: A black and white dog is laying on a blanket and a ball under his paw.
+height: 576
+width: 320
+num_frames: 16
+prompt_vs:
+  object_insertion: xxx
+  object_removal: xxx
+  object_change: xxx
+  scene_change: xxx
+  motion_change: xxx
+  stylization: xxx
+prompt_is:
+  object_insertion: xxx
+  object_removal: xxx
+  object_change: xxx
+  scene_change: xxx
+  motion_change: xxx
+  stylization: xxx
+weight_dtype: fp16
+guidance_scale_v: 7.5
+guidance_scale_i: 7.5
