@@ -12,7 +12,7 @@ Hello! Welcome to **FLDM**.
 ./infer.sh
 ```
 
-This is the version of ZeroScope and ControlNet. We will release more code and results if our paper is accepted. 
+This is the version of ZeroScope and ControlNet.
 
 
 
